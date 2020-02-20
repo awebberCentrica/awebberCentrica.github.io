@@ -12,10 +12,10 @@ jobs:
   steps:
    - uses: actions/checkout@v1
 
-   - name: npm install
-    run: npm install
+   - name: npm install
+   run: npm install
        
-   - name: angular build
+   - name: angular build
     run: npm run build
       
    - name: deploy
